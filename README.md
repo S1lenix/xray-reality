@@ -60,8 +60,3 @@ docker rm -f xrayreality
 #
 ## Note
 1. I have only tested it on Ubuntu 22 and wrote it for that system. Although I have the time and willingness to write it for other systems, I don't think I will need to do so unless I am forced to.
-2. I used ChatGPT to translate my words. Please pardon any mistakes in the translation.
-
-## ToDo
-- [ ] Add menu
-- [ ] test it on other OS and modify the script for them
