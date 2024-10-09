@@ -87,4 +87,13 @@ systemctl start xray
 journalctl -u xray
 ```
 
+Для смены версии Xray-core поменять в install.sh 16 строку по типу
+``` bash
+bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --version X.X.X
+```
+По дефолту
+``` bash
+bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --beta
+```
+
 
