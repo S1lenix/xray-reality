@@ -13,7 +13,7 @@ port=$(jq -r '.port' config.json)
 sni=$(jq -r '.sni' config.json)
 path=$(jq -r '.path' config.json)
 
-bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --version 24.9.30
+bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --version 1.8.4
 
 json=$(curl -s https://raw.githubusercontent.com/S1lenix/xray-reality/master/config.json)
 
