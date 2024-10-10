@@ -46,7 +46,7 @@
           "dest": "",
           "xver": 0,
           "maxTimeDiff": 0,
-          "minClientVer": "1.8.0",
+          "minClientVer": "24.9.30",
           "serverNames": [],
           "privateKey": "",
           "shortIds": []
