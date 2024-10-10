@@ -18,15 +18,6 @@
       "statsOutboundDownlink": true
     }
   },
-  "dns": {
-    "servers": [
-      "1.1.1.1",
-      "1.0.0.1",
-      "8.8.8.8",
-      "8.8.4.4",
-      "localhost"
-    ]
-  },
   "inbounds": [
     {
       "listen": "0.0.0.0",
@@ -50,7 +41,6 @@
           "dest": "",
           "xver": 0,
           "maxTimeDiff": 0,
-          "minClientVer": "24.9.30",
           "serverNames": [],
           "privateKey": "",
           "shortIds": []
@@ -63,7 +53,7 @@
     },
     {
       "listen": "127.0.0.1",
-      "port": 10085,
+      "port": 10637,
       "protocol": "dokodemo-door",
       "settings": {
         "address": "127.0.0.1"
@@ -83,27 +73,6 @@
     }
   ],
   "routing": {
-    "domainStrategy": "IPIfNonMatch",
-    "rules": [
-      {
-        "inboundTag": ["api"],
-        "outboundTag": "api",
-        "type": "field"
-      },
-      {
-        "domain": ["Samandehi.ir"],
-        "type": "field",
-        "outboundTag": "blocked"
-      },
-      {
-        "type": "field",
-        "ip": ["geoip:ir", "geoip:private"],
-        "outboundTag": "blocked"
-      },
-      {
-        "protocol": ["bittorrent"],
-        "type": "field",
-        "outboundTag": "blocked"
       }
     ]
   }
