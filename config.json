@@ -44,6 +44,7 @@
           "serverNames": [],
           "privateKey": "",
           "shortIds": []
+          "domainStrategy": "UseIPv4"
         }
       },
       "sniffing": {
@@ -66,6 +67,8 @@
     {
       "protocol": "freedom",
       "tag": "direct"
+      "settings": {
+        "domainStrategy": "UseIPv4"
     },
     {
       "protocol": "blackhole",
