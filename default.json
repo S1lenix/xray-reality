@@ -2,6 +2,6 @@
     "name": "vless+tls+h2+reality",
     "email":"s1lenix",
     "port": 10630,
-    "sni": "www.amd.com",
+    "sni": "yandex.ru",
     "path": "%2F"
 }
